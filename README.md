@@ -18,11 +18,11 @@ Xiuno BBS 4.0 是一款轻论坛产品。
 - 移除插件中心链接
 - UMEditor 百度编辑器更新简约主题，后续可能替换成大白编辑器
 ### 移除部分原始插件
-* 在线手册（xn_manual），不能用，删掉
+* 在线手册（xn_manual）
 * 返回顶部（z_top），后续会集成到主题中
-* Xiuno BBS 测试插件 (xn_test)，无用插件
+* Xiuno BBS 测试插件 (xn_test)
 * 屏幕阅读 ( xn_screen_reader)
-* 幸运踩楼 (xn_lucky_post)，很不常用的功能，且影响美观
+* 幸运踩楼 (xn_lucky_post)
 * 版块三级分类 (xn_forum_level_3)
 * 我的第一个 Xiuno BBS 插件 (my_hello)
 * 移除官方自带三款主题(xn_theme_red、 xn_theme_paopao、xn_theme_dark)，后续会添加简约风、acg主题、绿色小清新
@@ -78,6 +78,7 @@ location ~* \.(htm)$ {
 - [x] 增加插件仓库，添加常用插件。
 - [ ] 重启社区计划
 - [ ] 整理修复部分插件
+- [ ] 添加简约风、acg风格、绿色小清新风格主题。
 
 ## 贡献者
 创始人[axiuno](http://bbs.xiuno.com/)
