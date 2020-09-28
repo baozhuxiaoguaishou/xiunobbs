@@ -38,7 +38,8 @@ Xiuno BBS 4.0 是一款轻论坛产品。
 打开`/conf/conf.php`文件，把`  'url_rewrite_on' => 0,`改为`  'url_rewrite_on' => 1,`
 
 <details>
-<summary>Apache伪静态</summary>
+<summary>Apache伪静态:</summary>
+
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine on
@@ -55,13 +56,18 @@ RewriteRule ^(.*?)([^/]*)$ $1index.php?$2 [QSA,PT,L]
 </details>
 
 <details>
-<summary>nginx伪静态</summary>
+<summary>Nginx伪静态:</summary>
+
 ```
 location ~* \.(htm)$ {
-    rewrite "^(.*)/(.+?).htm(.*?)$"$1/index.php?$2.htm$3 last;
+
+    rewrite "^(.*)/(.+?).htm(.*?)$" $1/index.php?$2.htm$3 last;
+
 }
 ```
 </details>
+
+
 
 ## 下一步
 增加插件仓库，添加常用插件，重启社区计划。
