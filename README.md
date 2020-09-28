@@ -83,6 +83,6 @@ location ~* \.(htm)$ {
 ## 贡献者
 创始人：axiuno
 
-感谢：cnteacher@discuz、Discuz!、Team Artery、剑心@wooyun、右键森林、吴兆焕、杨永全、郑城、大象、你。
+感谢：cnteacher@discuz、Discuz!、Team Artery、剑心@wooyun、右键森林、吴兆焕、杨永全、郑城、大象、⭐Star本项目的您。
 
 ## Enjoy!
