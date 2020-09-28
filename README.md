@@ -7,6 +7,7 @@ Xiuno BBS 4.0 是一款轻论坛产品。
 ### 修复
 - 修复php7.4兼容问题
 - 修复无法卸载插件bug
+- 修复后台插件页面无法打开
 ### 更新
 - 💄默认主题更新
 - 💥采用**utf8mb4**，支持emoji
@@ -35,7 +36,8 @@ Xiuno BBS 4.0 是一款轻论坛产品。
 
 ### 伪静态
 打开`/conf/conf.php`文件，把`  'url_rewrite_on' => 0,`改为`  'url_rewrite_on' => 1,`
-#### Apache伪静态
+<details>
+<summary>Apache伪静态</summary>
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine on
@@ -49,12 +51,16 @@ RewriteRule ^(.*?)([^/]*)$ $1index.php?$2 [QSA,PT,L]
 #RewriteRule ^(.*?)([^/]*)\.htm(.*)$ $1/index.php?$2.htm$3 [L]
 </IfModule>
 ```
-#### nginx伪静态
+</details>
+
+<details>
+<summary>nginx伪静态</summary>
 ```
 location ~* \.(htm)$ {
-    rewrite "^(.*)/(.+?).htm(.*?)$"$1/index.php?$2.htm$3last;
+    rewrite "^(.*)/(.+?).htm(.*?)$"$1/index.php?$2.htm$3 last;
 }
 ```
+</details>
 
 ## 下一步
 增加插件仓库，添加常用插件，重启社区计划。
