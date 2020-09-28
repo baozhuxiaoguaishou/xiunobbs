@@ -36,6 +36,7 @@ Xiuno BBS 4.0 是一款轻论坛产品。
 
 ### 伪静态
 打开`/conf/conf.php`文件，把`  'url_rewrite_on' => 0,`改为`  'url_rewrite_on' => 1,`
+
 <details>
 <summary>Apache伪静态</summary>
 ```
