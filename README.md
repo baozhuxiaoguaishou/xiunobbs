@@ -81,7 +81,8 @@ location ~* \.(htm)$ {
 - [ ] 添加简约风、acg风格、绿色小清新风格主题。
 
 ## 贡献者
-创始人[axiuno](http://bbs.xiuno.com/)
-Thanks For: [cnteacher@discuz](http://www.discuz.net/) [Discuz! Team](http://www.discuz.net/) [Artery](http://artery.cn/) [剑心@wooyun](http://www.wooyun.org/) [右键森林](http://bbs.xiuno.com/) [吴兆焕](http://bbs.xiuno.com/) [杨永全](http://www.zd.hk/) [郑城](http://www.huux.cc/) [大象](http://www.baiup.com/)
+创始人：axiuno
+
+感谢：cnteacher@discuz、Discuz!、Team Artery、剑心@wooyun、右键森林、吴兆焕、杨永全、郑城、大象、你。
 
 ## Enjoy!
