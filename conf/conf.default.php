@@ -116,7 +116,7 @@ return array (
 	// 禁止插件
 	'disabled_plugin' => 0, 
 	  
-	'version' => '4.0.5',
+	'version' => '4.0.6',
 	'static_version' => '?1.0',
 	'installed' => 0,
 );
